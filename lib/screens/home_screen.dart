@@ -113,37 +113,6 @@ _marker.add(
             ),
                        );
            }
-                
-        // if (getusername == data['MarkerId']) {
-        //   controller
-        //       .animateCamera(CameraUpdate.newCameraPosition(CameraPosition(
-        //     target: LatLng(c, d),
-        //     zoom: 30,
-        //   )))
-        //       .onError((error, stackTrace) {
-        //     print('rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr');
-        //   });
-        // _marker.add(
-        //     Marker(
-        //       markerId: MarkerId(data['MarkerId'].toString()),
-        //       position: LatLng(c, d),
-        //       icon: await BitmapDescriptor.fromAssetImage(
-        //           ImageConfiguration(size: Size.square(3.0)),
-        //           "assets/Picsart_23-09-19_12-35-55-0371.png"),
-        //     ),
-        // );
-        // } else {
-        //   _marker.add(
-        //     Marker(
-        //       markerId: MarkerId(data['MarkerId'].toString()),
-        //       position: LatLng(c, d),
-        //       icon: await BitmapDescriptor.fromAssetImage(
-        //           ImageConfiguration(size: Size.square(3.0)),
-        //           "assets/others.png"),
-        //     ),
-        //   );         
-          
-        // }
         }
     
 
@@ -507,17 +476,5 @@ _marker.add(
   void dispose() async {
     // TODO: implement dispose
     super.dispose();
-    // var prefs = await SharedPreferences.getInstance();
-    // var getusername = prefs.getString('username');
-    // print(getusername);
-    // CollectionReference driverroute =
-    //     FirebaseFirestore.instance.collection("route");
-    // drivercollection.doc(getusername.toString()).update({
-    //   'ison': false,
-    // });
-    // driverroute.doc(getusername.toString()).update({
-    //   'ison': false,
-    // });
-    // print('9999999999999999999999999999999999999999999999999999');
-  }
+    }
 }
